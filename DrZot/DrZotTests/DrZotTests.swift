@@ -1,14 +1,14 @@
 //
-//  Dr__ZotTests.swift
-//  Dr. ZotTests
+//  DrZotTests.swift
+//  DrZotTests
 //
 //  Created by Chris Ruan on 2/26/23.
 //
 
 import XCTest
-@testable import Dr__Zot
+@testable import DrZot
 
-final class Dr__ZotTests: XCTestCase {
+final class DrZotTests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.

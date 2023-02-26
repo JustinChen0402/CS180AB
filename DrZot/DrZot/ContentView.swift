@@ -1,6 +1,6 @@
 //
 //  ContentView.swift
-//  Dr. Zot
+//  DrZot
 //
 //  Created by Chris Ruan on 2/26/23.
 //

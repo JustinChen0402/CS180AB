@@ -1,13 +1,13 @@
 //
-//  Dr__ZotUITestsLaunchTests.swift
-//  Dr. ZotUITests
+//  DrZotUITestsLaunchTests.swift
+//  DrZotUITests
 //
 //  Created by Chris Ruan on 2/26/23.
 //
 
 import XCTest
 
-final class Dr__ZotUITestsLaunchTests: XCTestCase {
+final class DrZotUITestsLaunchTests: XCTestCase {
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true

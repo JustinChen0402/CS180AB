@@ -1,6 +1,6 @@
 //
-//  Dr__ZotApp.swift
-//  Dr. Zot
+//  DrZotApp.swift
+//  DrZot
 //
 //  Created by Chris Ruan on 2/26/23.
 //
@@ -8,7 +8,7 @@
 import SwiftUI
 
 @main
-struct Dr__ZotApp: App {
+struct DrZotApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()

@@ -7,61 +7,66 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A9834F8F29AC0BD60077ADD9 /* DrZotApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9834F8E29AC0BD60077ADD9 /* DrZotApp.swift */; };
-		A9834F9129AC0BD60077ADD9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9834F9029AC0BD60077ADD9 /* ContentView.swift */; };
-		A9834F9329AC0BD70077ADD9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9834F9229AC0BD70077ADD9 /* Assets.xcassets */; };
-		A9834F9629AC0BD70077ADD9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9834F9529AC0BD70077ADD9 /* Preview Assets.xcassets */; };
-		A9834FA029AC0BD70077ADD9 /* DrZotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9834F9F29AC0BD70077ADD9 /* DrZotTests.swift */; };
-		A9834FAA29AC0BD70077ADD9 /* DrZotUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9834FA929AC0BD70077ADD9 /* DrZotUITests.swift */; };
-		A9834FAC29AC0BD70077ADD9 /* DrZotUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9834FAB29AC0BD70077ADD9 /* DrZotUITestsLaunchTests.swift */; };
+		A983500529B6A7140077ADD9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A983500429B6A7140077ADD9 /* AppDelegate.swift */; };
+		A983500729B6A7140077ADD9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A983500629B6A7140077ADD9 /* SceneDelegate.swift */; };
+		A983500929B6A7140077ADD9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A983500829B6A7140077ADD9 /* ViewController.swift */; };
+		A983500C29B6A7140077ADD9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A983500A29B6A7140077ADD9 /* Main.storyboard */; };
+		A983500E29B6A7150077ADD9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A983500D29B6A7150077ADD9 /* Assets.xcassets */; };
+		A983501129B6A7150077ADD9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A983500F29B6A7150077ADD9 /* LaunchScreen.storyboard */; };
+		A983501C29B6A7160077ADD9 /* DrZotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A983501B29B6A7160077ADD9 /* DrZotTests.swift */; };
+		A983502629B6A7160077ADD9 /* DrZotUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A983502529B6A7160077ADD9 /* DrZotUITests.swift */; };
+		A983502829B6A7160077ADD9 /* DrZotUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A983502729B6A7160077ADD9 /* DrZotUITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		A9834F9C29AC0BD70077ADD9 /* PBXContainerItemProxy */ = {
+		A983501829B6A7160077ADD9 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = A9834F8329AC0BD60077ADD9 /* Project object */;
+			containerPortal = A9834FF929B6A7140077ADD9 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = A9834F8A29AC0BD60077ADD9;
+			remoteGlobalIDString = A983500029B6A7140077ADD9;
 			remoteInfo = DrZot;
 		};
-		A9834FA629AC0BD70077ADD9 /* PBXContainerItemProxy */ = {
+		A983502229B6A7160077ADD9 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = A9834F8329AC0BD60077ADD9 /* Project object */;
+			containerPortal = A9834FF929B6A7140077ADD9 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = A9834F8A29AC0BD60077ADD9;
+			remoteGlobalIDString = A983500029B6A7140077ADD9;
 			remoteInfo = DrZot;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		A9834F8B29AC0BD60077ADD9 /* DrZot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DrZot.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		A9834F8E29AC0BD60077ADD9 /* DrZotApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrZotApp.swift; sourceTree = "<group>"; };
-		A9834F9029AC0BD60077ADD9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		A9834F9229AC0BD70077ADD9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		A9834F9529AC0BD70077ADD9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		A9834F9B29AC0BD70077ADD9 /* DrZotTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DrZotTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		A9834F9F29AC0BD70077ADD9 /* DrZotTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrZotTests.swift; sourceTree = "<group>"; };
-		A9834FA529AC0BD70077ADD9 /* DrZotUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DrZotUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		A9834FA929AC0BD70077ADD9 /* DrZotUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrZotUITests.swift; sourceTree = "<group>"; };
-		A9834FAB29AC0BD70077ADD9 /* DrZotUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrZotUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A983500129B6A7140077ADD9 /* DrZot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DrZot.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A983500429B6A7140077ADD9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A983500629B6A7140077ADD9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A983500829B6A7140077ADD9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A983500B29B6A7140077ADD9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A983500D29B6A7150077ADD9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A983501029B6A7150077ADD9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A983501229B6A7150077ADD9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A983501729B6A7160077ADD9 /* DrZotTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DrZotTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A983501B29B6A7160077ADD9 /* DrZotTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrZotTests.swift; sourceTree = "<group>"; };
+		A983502129B6A7160077ADD9 /* DrZotUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DrZotUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A983502529B6A7160077ADD9 /* DrZotUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrZotUITests.swift; sourceTree = "<group>"; };
+		A983502729B6A7160077ADD9 /* DrZotUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrZotUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		A9834F8829AC0BD60077ADD9 /* Frameworks */ = {
+		A9834FFE29B6A7140077ADD9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A9834F9829AC0BD70077ADD9 /* Frameworks */ = {
+		A983501429B6A7160077ADD9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A9834FA229AC0BD70077ADD9 /* Frameworks */ = {
+		A983501E29B6A7160077ADD9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -71,58 +76,53 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		A9834F8229AC0BD60077ADD9 = {
+		A9834FF829B6A7140077ADD9 = {
 			isa = PBXGroup;
 			children = (
-				A9834F8D29AC0BD60077ADD9 /* DrZot */,
-				A9834F9E29AC0BD70077ADD9 /* DrZotTests */,
-				A9834FA829AC0BD70077ADD9 /* DrZotUITests */,
-				A9834F8C29AC0BD60077ADD9 /* Products */,
+				A983500329B6A7140077ADD9 /* DrZot */,
+				A983501A29B6A7160077ADD9 /* DrZotTests */,
+				A983502429B6A7160077ADD9 /* DrZotUITests */,
+				A983500229B6A7140077ADD9 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		A9834F8C29AC0BD60077ADD9 /* Products */ = {
+		A983500229B6A7140077ADD9 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A9834F8B29AC0BD60077ADD9 /* DrZot.app */,
-				A9834F9B29AC0BD70077ADD9 /* DrZotTests.xctest */,
-				A9834FA529AC0BD70077ADD9 /* DrZotUITests.xctest */,
+				A983500129B6A7140077ADD9 /* DrZot.app */,
+				A983501729B6A7160077ADD9 /* DrZotTests.xctest */,
+				A983502129B6A7160077ADD9 /* DrZotUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A9834F8D29AC0BD60077ADD9 /* DrZot */ = {
+		A983500329B6A7140077ADD9 /* DrZot */ = {
 			isa = PBXGroup;
 			children = (
-				A9834F8E29AC0BD60077ADD9 /* DrZotApp.swift */,
-				A9834F9029AC0BD60077ADD9 /* ContentView.swift */,
-				A9834F9229AC0BD70077ADD9 /* Assets.xcassets */,
-				A9834F9429AC0BD70077ADD9 /* Preview Content */,
+				A983500429B6A7140077ADD9 /* AppDelegate.swift */,
+				A983500629B6A7140077ADD9 /* SceneDelegate.swift */,
+				A983500829B6A7140077ADD9 /* ViewController.swift */,
+				A983500A29B6A7140077ADD9 /* Main.storyboard */,
+				A983500D29B6A7150077ADD9 /* Assets.xcassets */,
+				A983500F29B6A7150077ADD9 /* LaunchScreen.storyboard */,
+				A983501229B6A7150077ADD9 /* Info.plist */,
 			);
 			path = DrZot;
 			sourceTree = "<group>";
 		};
-		A9834F9429AC0BD70077ADD9 /* Preview Content */ = {
+		A983501A29B6A7160077ADD9 /* DrZotTests */ = {
 			isa = PBXGroup;
 			children = (
-				A9834F9529AC0BD70077ADD9 /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		A9834F9E29AC0BD70077ADD9 /* DrZotTests */ = {
-			isa = PBXGroup;
-			children = (
-				A9834F9F29AC0BD70077ADD9 /* DrZotTests.swift */,
+				A983501B29B6A7160077ADD9 /* DrZotTests.swift */,
 			);
 			path = DrZotTests;
 			sourceTree = "<group>";
 		};
-		A9834FA829AC0BD70077ADD9 /* DrZotUITests */ = {
+		A983502429B6A7160077ADD9 /* DrZotUITests */ = {
 			isa = PBXGroup;
 			children = (
-				A9834FA929AC0BD70077ADD9 /* DrZotUITests.swift */,
-				A9834FAB29AC0BD70077ADD9 /* DrZotUITestsLaunchTests.swift */,
+				A983502529B6A7160077ADD9 /* DrZotUITests.swift */,
+				A983502729B6A7160077ADD9 /* DrZotUITestsLaunchTests.swift */,
 			);
 			path = DrZotUITests;
 			sourceTree = "<group>";
@@ -130,13 +130,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A9834F8A29AC0BD60077ADD9 /* DrZot */ = {
+		A983500029B6A7140077ADD9 /* DrZot */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A9834FAF29AC0BD70077ADD9 /* Build configuration list for PBXNativeTarget "DrZot" */;
+			buildConfigurationList = A983502B29B6A7160077ADD9 /* Build configuration list for PBXNativeTarget "DrZot" */;
 			buildPhases = (
-				A9834F8729AC0BD60077ADD9 /* Sources */,
-				A9834F8829AC0BD60077ADD9 /* Frameworks */,
-				A9834F8929AC0BD60077ADD9 /* Resources */,
+				A9834FFD29B6A7140077ADD9 /* Sources */,
+				A9834FFE29B6A7140077ADD9 /* Frameworks */,
+				A9834FFF29B6A7140077ADD9 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -144,69 +144,69 @@
 			);
 			name = DrZot;
 			productName = DrZot;
-			productReference = A9834F8B29AC0BD60077ADD9 /* DrZot.app */;
+			productReference = A983500129B6A7140077ADD9 /* DrZot.app */;
 			productType = "com.apple.product-type.application";
 		};
-		A9834F9A29AC0BD70077ADD9 /* DrZotTests */ = {
+		A983501629B6A7160077ADD9 /* DrZotTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A9834FB229AC0BD70077ADD9 /* Build configuration list for PBXNativeTarget "DrZotTests" */;
+			buildConfigurationList = A983502E29B6A7160077ADD9 /* Build configuration list for PBXNativeTarget "DrZotTests" */;
 			buildPhases = (
-				A9834F9729AC0BD70077ADD9 /* Sources */,
-				A9834F9829AC0BD70077ADD9 /* Frameworks */,
-				A9834F9929AC0BD70077ADD9 /* Resources */,
+				A983501329B6A7160077ADD9 /* Sources */,
+				A983501429B6A7160077ADD9 /* Frameworks */,
+				A983501529B6A7160077ADD9 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				A9834F9D29AC0BD70077ADD9 /* PBXTargetDependency */,
+				A983501929B6A7160077ADD9 /* PBXTargetDependency */,
 			);
 			name = DrZotTests;
 			productName = DrZotTests;
-			productReference = A9834F9B29AC0BD70077ADD9 /* DrZotTests.xctest */;
+			productReference = A983501729B6A7160077ADD9 /* DrZotTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		A9834FA429AC0BD70077ADD9 /* DrZotUITests */ = {
+		A983502029B6A7160077ADD9 /* DrZotUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A9834FB529AC0BD70077ADD9 /* Build configuration list for PBXNativeTarget "DrZotUITests" */;
+			buildConfigurationList = A983503129B6A7160077ADD9 /* Build configuration list for PBXNativeTarget "DrZotUITests" */;
 			buildPhases = (
-				A9834FA129AC0BD70077ADD9 /* Sources */,
-				A9834FA229AC0BD70077ADD9 /* Frameworks */,
-				A9834FA329AC0BD70077ADD9 /* Resources */,
+				A983501D29B6A7160077ADD9 /* Sources */,
+				A983501E29B6A7160077ADD9 /* Frameworks */,
+				A983501F29B6A7160077ADD9 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				A9834FA729AC0BD70077ADD9 /* PBXTargetDependency */,
+				A983502329B6A7160077ADD9 /* PBXTargetDependency */,
 			);
 			name = DrZotUITests;
 			productName = DrZotUITests;
-			productReference = A9834FA529AC0BD70077ADD9 /* DrZotUITests.xctest */;
+			productReference = A983502129B6A7160077ADD9 /* DrZotUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		A9834F8329AC0BD60077ADD9 /* Project object */ = {
+		A9834FF929B6A7140077ADD9 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1420;
 				LastUpgradeCheck = 1420;
 				TargetAttributes = {
-					A9834F8A29AC0BD60077ADD9 = {
+					A983500029B6A7140077ADD9 = {
 						CreatedOnToolsVersion = 14.2;
 					};
-					A9834F9A29AC0BD70077ADD9 = {
+					A983501629B6A7160077ADD9 = {
 						CreatedOnToolsVersion = 14.2;
-						TestTargetID = A9834F8A29AC0BD60077ADD9;
+						TestTargetID = A983500029B6A7140077ADD9;
 					};
-					A9834FA429AC0BD70077ADD9 = {
+					A983502029B6A7160077ADD9 = {
 						CreatedOnToolsVersion = 14.2;
-						TestTargetID = A9834F8A29AC0BD60077ADD9;
+						TestTargetID = A983500029B6A7140077ADD9;
 					};
 				};
 			};
-			buildConfigurationList = A9834F8629AC0BD60077ADD9 /* Build configuration list for PBXProject "DrZot" */;
+			buildConfigurationList = A9834FFC29B6A7140077ADD9 /* Build configuration list for PBXProject "DrZot" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -214,36 +214,37 @@
 				en,
 				Base,
 			);
-			mainGroup = A9834F8229AC0BD60077ADD9;
-			productRefGroup = A9834F8C29AC0BD60077ADD9 /* Products */;
+			mainGroup = A9834FF829B6A7140077ADD9;
+			productRefGroup = A983500229B6A7140077ADD9 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A9834F8A29AC0BD60077ADD9 /* DrZot */,
-				A9834F9A29AC0BD70077ADD9 /* DrZotTests */,
-				A9834FA429AC0BD70077ADD9 /* DrZotUITests */,
+				A983500029B6A7140077ADD9 /* DrZot */,
+				A983501629B6A7160077ADD9 /* DrZotTests */,
+				A983502029B6A7160077ADD9 /* DrZotUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		A9834F8929AC0BD60077ADD9 /* Resources */ = {
+		A9834FFF29B6A7140077ADD9 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A9834F9629AC0BD70077ADD9 /* Preview Assets.xcassets in Resources */,
-				A9834F9329AC0BD70077ADD9 /* Assets.xcassets in Resources */,
+				A983501129B6A7150077ADD9 /* LaunchScreen.storyboard in Resources */,
+				A983500E29B6A7150077ADD9 /* Assets.xcassets in Resources */,
+				A983500C29B6A7140077ADD9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A9834F9929AC0BD70077ADD9 /* Resources */ = {
+		A983501529B6A7160077ADD9 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A9834FA329AC0BD70077ADD9 /* Resources */ = {
+		A983501F29B6A7160077ADD9 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -253,49 +254,69 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		A9834F8729AC0BD60077ADD9 /* Sources */ = {
+		A9834FFD29B6A7140077ADD9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A9834F9129AC0BD60077ADD9 /* ContentView.swift in Sources */,
-				A9834F8F29AC0BD60077ADD9 /* DrZotApp.swift in Sources */,
+				A983500929B6A7140077ADD9 /* ViewController.swift in Sources */,
+				A983500529B6A7140077ADD9 /* AppDelegate.swift in Sources */,
+				A983500729B6A7140077ADD9 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A9834F9729AC0BD70077ADD9 /* Sources */ = {
+		A983501329B6A7160077ADD9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A9834FA029AC0BD70077ADD9 /* DrZotTests.swift in Sources */,
+				A983501C29B6A7160077ADD9 /* DrZotTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A9834FA129AC0BD70077ADD9 /* Sources */ = {
+		A983501D29B6A7160077ADD9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A9834FAC29AC0BD70077ADD9 /* DrZotUITestsLaunchTests.swift in Sources */,
-				A9834FAA29AC0BD70077ADD9 /* DrZotUITests.swift in Sources */,
+				A983502829B6A7160077ADD9 /* DrZotUITestsLaunchTests.swift in Sources */,
+				A983502629B6A7160077ADD9 /* DrZotUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		A9834F9D29AC0BD70077ADD9 /* PBXTargetDependency */ = {
+		A983501929B6A7160077ADD9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = A9834F8A29AC0BD60077ADD9 /* DrZot */;
-			targetProxy = A9834F9C29AC0BD70077ADD9 /* PBXContainerItemProxy */;
+			target = A983500029B6A7140077ADD9 /* DrZot */;
+			targetProxy = A983501829B6A7160077ADD9 /* PBXContainerItemProxy */;
 		};
-		A9834FA729AC0BD70077ADD9 /* PBXTargetDependency */ = {
+		A983502329B6A7160077ADD9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = A9834F8A29AC0BD60077ADD9 /* DrZot */;
-			targetProxy = A9834FA629AC0BD70077ADD9 /* PBXContainerItemProxy */;
+			target = A983500029B6A7140077ADD9 /* DrZot */;
+			targetProxy = A983502229B6A7160077ADD9 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
+/* Begin PBXVariantGroup section */
+		A983500A29B6A7140077ADD9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A983500B29B6A7140077ADD9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A983500F29B6A7150077ADD9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A983501029B6A7150077ADD9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
-		A9834FAD29AC0BD70077ADD9 /* Debug */ = {
+		A983502929B6A7160077ADD9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -355,7 +376,7 @@
 			};
 			name = Debug;
 		};
-		A9834FAE29AC0BD70077ADD9 /* Release */ = {
+		A983502A29B6A7160077ADD9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -409,19 +430,18 @@
 			};
 			name = Release;
 		};
-		A9834FB029AC0BD70077ADD9 /* Debug */ = {
+		A983502C29B6A7160077ADD9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"DrZot/Preview Content\"";
-				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_FILE = DrZot/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -437,19 +457,18 @@
 			};
 			name = Debug;
 		};
-		A9834FB129AC0BD70077ADD9 /* Release */ = {
+		A983502D29B6A7160077ADD9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"DrZot/Preview Content\"";
-				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_FILE = DrZot/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -465,7 +484,7 @@
 			};
 			name = Release;
 		};
-		A9834FB329AC0BD70077ADD9 /* Debug */ = {
+		A983502F29B6A7160077ADD9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -484,7 +503,7 @@
 			};
 			name = Debug;
 		};
-		A9834FB429AC0BD70077ADD9 /* Release */ = {
+		A983503029B6A7160077ADD9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -503,7 +522,7 @@
 			};
 			name = Release;
 		};
-		A9834FB629AC0BD70077ADD9 /* Debug */ = {
+		A983503229B6A7160077ADD9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -520,7 +539,7 @@
 			};
 			name = Debug;
 		};
-		A9834FB729AC0BD70077ADD9 /* Release */ = {
+		A983503329B6A7160077ADD9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -540,43 +559,43 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A9834F8629AC0BD60077ADD9 /* Build configuration list for PBXProject "DrZot" */ = {
+		A9834FFC29B6A7140077ADD9 /* Build configuration list for PBXProject "DrZot" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A9834FAD29AC0BD70077ADD9 /* Debug */,
-				A9834FAE29AC0BD70077ADD9 /* Release */,
+				A983502929B6A7160077ADD9 /* Debug */,
+				A983502A29B6A7160077ADD9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A9834FAF29AC0BD70077ADD9 /* Build configuration list for PBXNativeTarget "DrZot" */ = {
+		A983502B29B6A7160077ADD9 /* Build configuration list for PBXNativeTarget "DrZot" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A9834FB029AC0BD70077ADD9 /* Debug */,
-				A9834FB129AC0BD70077ADD9 /* Release */,
+				A983502C29B6A7160077ADD9 /* Debug */,
+				A983502D29B6A7160077ADD9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A9834FB229AC0BD70077ADD9 /* Build configuration list for PBXNativeTarget "DrZotTests" */ = {
+		A983502E29B6A7160077ADD9 /* Build configuration list for PBXNativeTarget "DrZotTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A9834FB329AC0BD70077ADD9 /* Debug */,
-				A9834FB429AC0BD70077ADD9 /* Release */,
+				A983502F29B6A7160077ADD9 /* Debug */,
+				A983503029B6A7160077ADD9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A9834FB529AC0BD70077ADD9 /* Build configuration list for PBXNativeTarget "DrZotUITests" */ = {
+		A983503129B6A7160077ADD9 /* Build configuration list for PBXNativeTarget "DrZotUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A9834FB629AC0BD70077ADD9 /* Debug */,
-				A9834FB729AC0BD70077ADD9 /* Release */,
+				A983503229B6A7160077ADD9 /* Debug */,
+				A983503329B6A7160077ADD9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = A9834F8329AC0BD60077ADD9 /* Project object */;
+	rootObject = A9834FF929B6A7140077ADD9 /* Project object */;
 }

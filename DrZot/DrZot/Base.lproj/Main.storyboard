@@ -17,8 +17,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uf2-Ro-Vkl">
-                                <rect key="frame" x="131" y="761" width="130" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uf2-Ro-Vkl">
+                                <rect key="frame" x="131.66666666666666" y="761" width="129.99999999999997" height="30"/>
                                 <color key="backgroundColor" name="AccentColor"/>
                                 <color key="tintColor" systemColor="opaqueSeparatorColor"/>
                                 <state key="normal" title="Button"/>
@@ -27,9 +27,8 @@
                                     <segue destination="hx0-Oy-9VD" kind="show" id="bJU-1d-Kob"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rls-sO-HEK">
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rls-sO-HEK">
                                 <rect key="frame" x="133" y="221" width="126" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" name="AccentColor"/>
                                 <color key="tintColor" systemColor="opaqueSeparatorColor"/>
                                 <state key="normal" title="Button"/>
@@ -43,6 +42,10 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="uf2-Ro-Vkl" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="350" id="0t0-NQ-jfh"/>
+                            <constraint firstItem="uf2-Ro-Vkl" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="74o-Fq-QCs"/>
+                            <constraint firstItem="Rls-sO-HEK" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="133" id="MN0-Mk-zhS"/>
+                            <constraint firstItem="Rls-sO-HEK" firstAttribute="centerX" secondItem="uf2-Ro-Vkl" secondAttribute="centerX" id="V3h-kl-KPM"/>
+                            <constraint firstItem="Rls-sO-HEK" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="162" id="xxC-Pg-NMS"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Home" id="3jm-IU-dds"/>
@@ -59,9 +62,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZE9-sp-OMz">
-                                <rect key="frame" x="121" y="210" width="150" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZE9-sp-OMz">
+                                <rect key="frame" x="121.66666666666669" y="411" width="150" height="30"/>
                                 <color key="backgroundColor" name="AccentColor"/>
                                 <color key="tintColor" systemColor="opaqueSeparatorColor"/>
                                 <state key="normal" title="Button"/>
@@ -70,8 +72,8 @@
                                     <segue destination="njA-4O-2A0" kind="show" id="tMF-2L-Wji"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="P8C-kj-WFa">
-                                <rect key="frame" x="131.66666666666663" y="761" width="130" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="P8C-kj-WFa">
+                                <rect key="frame" x="131.66666666666666" y="761" width="129.99999999999997" height="30"/>
                                 <color key="backgroundColor" name="AccentColor"/>
                                 <color key="tintColor" systemColor="opaqueSeparatorColor"/>
                                 <state key="normal" title="Button"/>
@@ -84,7 +86,10 @@
                         <viewLayoutGuide key="safeArea" id="ZE0-Ht-T87"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="ZE9-sp-OMz" firstAttribute="centerX" secondItem="Ye3-Sm-QXF" secondAttribute="centerX" id="2uo-31-XwE"/>
+                            <constraint firstItem="ZE9-sp-OMz" firstAttribute="centerY" secondItem="Ye3-Sm-QXF" secondAttribute="centerY" id="6nz-PQ-iQZ"/>
                             <constraint firstItem="P8C-kj-WFa" firstAttribute="centerY" secondItem="Ye3-Sm-QXF" secondAttribute="centerY" constant="350" id="Emh-zm-czX"/>
+                            <constraint firstItem="P8C-kj-WFa" firstAttribute="centerX" secondItem="Ye3-Sm-QXF" secondAttribute="centerX" id="Oaj-Oz-Y55"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="All Health Data" id="8G0-3X-qEN"/>
@@ -131,8 +136,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CzM-9y-KZG">
-                                <rect key="frame" x="62" y="761" width="60" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CzM-9y-KZG">
+                                <rect key="frame" x="66.666666666666671" y="761" width="60" height="30"/>
                                 <color key="backgroundColor" name="AccentColor"/>
                                 <color key="tintColor" systemColor="opaqueSeparatorColor"/>
                                 <state key="normal" title="Button"/>
@@ -141,8 +146,8 @@
                                     <segue destination="BYZ-38-t0r" kind="show" id="ZNV-2L-vJt"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Z96-TM-YWr">
-                                <rect key="frame" x="201" y="761" width="130" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Z96-TM-YWr">
+                                <rect key="frame" x="231.66666666666663" y="761" width="130" height="30"/>
                                 <color key="backgroundColor" name="AccentColor"/>
                                 <color key="tintColor" systemColor="opaqueSeparatorColor"/>
                                 <state key="normal" title="Button"/>
@@ -157,6 +162,8 @@
                         <constraints>
                             <constraint firstItem="CzM-9y-KZG" firstAttribute="centerY" secondItem="Z7y-vn-hOD" secondAttribute="centerY" constant="350" id="BcO-dE-pRw"/>
                             <constraint firstItem="Z96-TM-YWr" firstAttribute="centerY" secondItem="Z7y-vn-hOD" secondAttribute="centerY" constant="350" id="Hr0-Ta-wub"/>
+                            <constraint firstItem="Z96-TM-YWr" firstAttribute="centerX" secondItem="Z7y-vn-hOD" secondAttribute="centerX" constant="100" id="v0e-cY-QaN"/>
+                            <constraint firstItem="CzM-9y-KZG" firstAttribute="centerX" secondItem="Z7y-vn-hOD" secondAttribute="centerX" constant="-100" id="vFz-KZ-J5I"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="(Health Data Title)" id="5wH-fS-wVq"/>
@@ -173,8 +180,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rPb-Ez-3EE">
-                                <rect key="frame" x="166" y="761" width="60" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rPb-Ez-3EE">
+                                <rect key="frame" x="166.66666666666666" y="761" width="60" height="30"/>
                                 <color key="backgroundColor" name="AccentColor"/>
                                 <color key="tintColor" systemColor="opaqueSeparatorColor"/>
                                 <state key="normal" title="Button"/>
@@ -188,6 +195,7 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="rPb-Ez-3EE" firstAttribute="centerY" secondItem="lqS-Vt-E3L" secondAttribute="centerY" constant="350" id="L4W-OL-K6V"/>
+                            <constraint firstItem="rPb-Ez-3EE" firstAttribute="centerX" secondItem="lqS-Vt-E3L" secondAttribute="centerX" id="SBD-qf-UKm"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Calendar" id="cK2-uL-vr8" userLabel="Calendar"/>
@@ -214,8 +222,8 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="MMR-FX-hXe"/>
-        <segue reference="ZNV-2L-vJt"/>
+        <segue reference="bJU-1d-Kob"/>
+        <segue reference="3fV-3k-orX"/>
     </inferredMetricsTieBreakers>
     <resources>
         <namedColor name="AccentColor">

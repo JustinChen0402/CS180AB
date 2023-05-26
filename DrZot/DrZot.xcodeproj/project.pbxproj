@@ -15,10 +15,15 @@
 		A904A31429EF62A000BA6D4C /* DrZotUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A904A31329EF62A000BA6D4C /* DrZotUITests.swift */; };
 		A904A31629EF62A000BA6D4C /* DrZotUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A904A31529EF62A000BA6D4C /* DrZotUITestsLaunchTests.swift */; };
 		A904A32329EF64F700BA6D4C /* VarManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A904A32229EF64F600BA6D4C /* VarManager.swift */; };
+		A975F8892A1DBF8400C2A9C8 /* LocalStorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A975F8882A1DBF8400C2A9C8 /* LocalStorageManager.swift */; };
+		A975F88B2A1DC04700C2A9C8 /* CSVLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = A975F88A2A1DC04700C2A9C8 /* CSVLoader.swift */; };
+		A975F88D2A1DC5F300C2A9C8 /* UserSleepDatabase.swift in Sources */ = {isa = PBXBuildFile; fileRef = A975F88C2A1DC5F300C2A9C8 /* UserSleepDatabase.swift */; };
+		A975F88F2A1DE58E00C2A9C8 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A975F88E2A1DE58E00C2A9C8 /* HomeView.swift */; };
+		A975F8922A1DE63700C2A9C8 /* RecommendationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A975F8912A1DE63700C2A9C8 /* RecommendationView.swift */; };
+		A975F8942A1DE72B00C2A9C8 /* AnalysisView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A975F8932A1DE72B00C2A9C8 /* AnalysisView.swift */; };
 		A9949B612A0F18B3007FF856 /* SwiftCSV in Frameworks */ = {isa = PBXBuildFile; productRef = A9949B602A0F18B3007FF856 /* SwiftCSV */; };
 		A9949B642A0F18E9007FF856 /* SwiftUICharts in Frameworks */ = {isa = PBXBuildFile; productRef = A9949B632A0F18E9007FF856 /* SwiftUICharts */; };
 		A9949B672A0F2AA4007FF856 /* DataFiles in Resources */ = {isa = PBXBuildFile; fileRef = A9949B662A0F2AA4007FF856 /* DataFiles */; };
-		A9D4ADB32A0366A4005FD0DE /* bmiCSVManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9D4ADB22A0366A4005FD0DE /* bmiCSVManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,8 +55,13 @@
 		A904A31329EF62A000BA6D4C /* DrZotUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrZotUITests.swift; sourceTree = "<group>"; };
 		A904A31529EF62A000BA6D4C /* DrZotUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrZotUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		A904A32229EF64F600BA6D4C /* VarManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VarManager.swift; sourceTree = "<group>"; };
+		A975F8882A1DBF8400C2A9C8 /* LocalStorageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalStorageManager.swift; sourceTree = "<group>"; };
+		A975F88A2A1DC04700C2A9C8 /* CSVLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CSVLoader.swift; sourceTree = "<group>"; };
+		A975F88C2A1DC5F300C2A9C8 /* UserSleepDatabase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSleepDatabase.swift; sourceTree = "<group>"; };
+		A975F88E2A1DE58E00C2A9C8 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		A975F8912A1DE63700C2A9C8 /* RecommendationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendationView.swift; sourceTree = "<group>"; };
+		A975F8932A1DE72B00C2A9C8 /* AnalysisView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalysisView.swift; sourceTree = "<group>"; };
 		A9949B662A0F2AA4007FF856 /* DataFiles */ = {isa = PBXFileReference; lastKnownFileType = folder; path = DataFiles; sourceTree = "<group>"; };
-		A9D4ADB22A0366A4005FD0DE /* bmiCSVManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bmiCSVManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,12 +115,14 @@
 		A904A2F729EF629F00BA6D4C /* DrZot */ = {
 			isa = PBXGroup;
 			children = (
-				A904A2F829EF629F00BA6D4C /* DrZotApp.swift */,
-				A9D4ADB22A0366A4005FD0DE /* bmiCSVManager.swift */,
-				A904A2FA29EF629F00BA6D4C /* ContentView.swift */,
-				A904A32229EF64F600BA6D4C /* VarManager.swift */,
+				A975F8902A1DE5EB00C2A9C8 /* Views */,
 				A904A2FC29EF62A000BA6D4C /* Assets.xcassets */,
+				A975F88A2A1DC04700C2A9C8 /* CSVLoader.swift */,
+				A904A2F829EF629F00BA6D4C /* DrZotApp.swift */,
+				A975F8882A1DBF8400C2A9C8 /* LocalStorageManager.swift */,
 				A904A2FE29EF62A000BA6D4C /* Preview Content */,
+				A975F88C2A1DC5F300C2A9C8 /* UserSleepDatabase.swift */,
+				A904A32229EF64F600BA6D4C /* VarManager.swift */,
 			);
 			path = DrZot;
 			sourceTree = "<group>";
@@ -138,6 +150,17 @@
 				A904A31529EF62A000BA6D4C /* DrZotUITestsLaunchTests.swift */,
 			);
 			path = DrZotUITests;
+			sourceTree = "<group>";
+		};
+		A975F8902A1DE5EB00C2A9C8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A904A2FA29EF629F00BA6D4C /* ContentView.swift */,
+				A975F88E2A1DE58E00C2A9C8 /* HomeView.swift */,
+				A975F8912A1DE63700C2A9C8 /* RecommendationView.swift */,
+				A975F8932A1DE72B00C2A9C8 /* AnalysisView.swift */,
+			);
+			name = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -280,8 +303,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				A904A2FB29EF629F00BA6D4C /* ContentView.swift in Sources */,
-				A9D4ADB32A0366A4005FD0DE /* bmiCSVManager.swift in Sources */,
+				A975F88F2A1DE58E00C2A9C8 /* HomeView.swift in Sources */,
+				A975F8892A1DBF8400C2A9C8 /* LocalStorageManager.swift in Sources */,
+				A975F8922A1DE63700C2A9C8 /* RecommendationView.swift in Sources */,
 				A904A2F929EF629F00BA6D4C /* DrZotApp.swift in Sources */,
+				A975F88D2A1DC5F300C2A9C8 /* UserSleepDatabase.swift in Sources */,
+				A975F88B2A1DC04700C2A9C8 /* CSVLoader.swift in Sources */,
+				A975F8942A1DE72B00C2A9C8 /* AnalysisView.swift in Sources */,
 				A904A32329EF64F700BA6D4C /* VarManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -441,6 +469,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"DrZot/Preview Content\"";
+				DEVELOPMENT_TEAM = TPH5VYFD3F;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -469,6 +498,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"DrZot/Preview Content\"";
+				DEVELOPMENT_TEAM = TPH5VYFD3F;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
